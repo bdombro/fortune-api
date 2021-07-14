@@ -1,0 +1,24 @@
+{
+  "name": "fortune-api-demo",
+  "version": "1.0.0",
+  "description": "FortuneJS is a super lean, terse, easy to use framework for making Rest JSON:APIs.",
+  "main": "src/server.js",
+	"type": "module",
+  "author": "Brian Dombrowski",
+  "license": "ISC",
+  "scripts": {
+		"dev": "nodemon --watch src --watch db ./src/server.js",
+		"start": "node src/server.js"
+	},
+  "dependencies": {
+    "atob": "^2.1.2",
+    "fortune": "^5.5.18",
+    "fortune-json-api": "^2.3.0",
+    "fortune-http": "^1.2.26",
+    "fortune-nedb": "^1.1.7",
+    "nodemon": "^2.0.12"
+  },
+  "keywords": [
+    "FortuneJS"
+  ]
+}
